@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  #input {
+    text-align: center;
+  }
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -ms-transform: translate(-50%, -50%);  /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
+    -o-transform: translate(-50%, -50%); /* Opera */
+    transform: translate(-50%, -50%);
+    background-color: limegreen;
+    height: 80%;
+    width: 40%;
+    padding: 20px 20px 20px 20px;
+}
+
+#child {
+    height: 80%;
+    width: 80%;
+}
